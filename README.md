@@ -1,16 +1,15 @@
 # bynry_casestudy
 
-A new Flutter project.
+Bynry is gearing up to introduce a new feature to its SAAS product, necessitating
+improvements to its existing mobile application. This application, crafted using Flutter,
+serves the consumers of utility companies, enabling them to access a range of
+functionalities from signing up and logging in to managing their accounts and paying
+bills.
+<br><br>
+The primary goal of this assignment is to implement the necessary enhancements to
+accommodate the new feature within the mobile application. You are expected to focus
+on both the front-end and back-end aspects, ensuring a seamless user experience and
+integration with the existing functionalities.
+## Screenshots
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](./images/screenshot/loginpage.jpg)
