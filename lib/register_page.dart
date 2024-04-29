@@ -12,7 +12,7 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.purple[900],
+      backgroundColor: const Color.fromARGB(255, 82, 1, 230),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: SingleChildScrollView(
@@ -104,38 +104,37 @@ class _RegisterPageState extends State<RegisterPage> {
                           ),
                         ],
                       ),
-                      const SizedBox(height: 10.0),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Text(
-                            'Already have an Account ? ',
-                            style: TextStyle(
-                                color: Colors.grey[600], fontSize: 18.0),
-                          ),
-                          TextButton(
-                            onPressed: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const LoginPage(),
-                                ),
-                              );
-                            },
-                            child: const Text(
-                              "Login",
-                              style: TextStyle(
-                                color: Color.fromARGB(255, 86, 17, 170),
-                                fontSize: 18.0,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
                     ],
                   ),
                 ),
+              ),
+              const SizedBox(height: 10.0),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text(
+                    'Already have an Account ? ',
+                    style: TextStyle(color: Colors.white70, fontSize: 18.0),
+                  ),
+                  TextButton(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const LoginPage(),
+                        ),
+                      );
+                    },
+                    child: const Text(
+                      "Login",
+                      style: TextStyle(
+                        color: Colors.white70,
+                        fontSize: 18.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ],
           ),
